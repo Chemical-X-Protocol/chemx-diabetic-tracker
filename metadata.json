@@ -1,0 +1,6 @@
+{
+  "name": "Diabetic Tracker v0 - Enhanced by chemx",
+  "description": "A comprehensive task manager and clinical companion for diabetics to track insulin doses, schedule daily reminders, monitor glucose trends, and export medical reports for doctor visits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,317 @@
+[
+  {
+    "id": "audit-1790342088835",
+    "timestamp": "2026-09-25T13:14:48.835Z",
+    "health": {
+      "score": 100,
+      "grade": "A+",
+      "label": "Crystalline Molecular"
+    },
+    "aiSlop": {
+      "score": 100,
+      "grade": "A+",
+      "label": "Pure Artisanal",
+      "violationsCount": 0
+    },
+    "metrics": {
+      "scannedFiles": 2,
+      "totalLoc": 20,
+      "avgLoc": 10,
+      "moleculeCount": 0,
+      "moleculeCompliantCount": 0,
+      "moleculeCompliantPct": 100,
+      "hookCount": 0
+    },
+    "violations": {
+      "total": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "monoliths": {
+      "total": 0,
+      "extreme": 0,
+      "severe": 0,
+      "warning": 0
+    },
+    "tokens": {
+      "estimatedTokens": 91,
+      "estimatedExcessTokens": 0,
+      "potentialSavingsPct": 0,
+      "riskLevel": "LOW",
+      "pricingModel": "Frontier Blended ($3.00/1M)",
+      "costPerMillion": 3,
+      "excessCostPerPass": 0,
+      "weeklyWastePerDev": 0,
+      "monthlyWastePerDev": 0
+    },
+    "pillars": {
+      "Line Budgets & Monolith Decomposition": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Control Flow & Boolean Logic": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Reactivity & Composable Contracts": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Type Architecture & Data Integrity": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Design System & Styling Hygiene": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Timers & Macro-Task Discipline": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Global Hygiene & Typography": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Accessibility & Semantic Integrity": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Security & Content Safety": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Testing Discipline": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Naming Conventions": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      }
+    }
+  },
+  {
+    "id": "audit-1790342481941",
+    "timestamp": "2026-09-25T13:21:21.941Z",
+    "health": {
+      "score": 0,
+      "grade": "F",
+      "label": "Severe Context Rot"
+    },
+    "aiSlop": {
+      "score": 88,
+      "grade": "B",
+      "label": "Low AI Residue",
+      "violationsCount": 3
+    },
+    "metrics": {
+      "scannedFiles": 16,
+      "totalLoc": 4423,
+      "avgLoc": 276,
+      "moleculeCount": 0,
+      "moleculeCompliantCount": 0,
+      "moleculeCompliantPct": 100,
+      "hookCount": 72
+    },
+    "violations": {
+      "total": 53,
+      "critical": 22,
+      "high": 17,
+      "medium": 13,
+      "low": 1
+    },
+    "monoliths": {
+      "total": 0,
+      "extreme": 0,
+      "severe": 0,
+      "warning": 0
+    },
+    "tokens": {
+      "estimatedTokens": 47163,
+      "estimatedExcessTokens": 0,
+      "potentialSavingsPct": 0,
+      "riskLevel": "LOW",
+      "pricingModel": "Frontier Blended ($3.00/1M)",
+      "costPerMillion": 3,
+      "excessCostPerPass": 0,
+      "weeklyWastePerDev": 0,
+      "monthlyWastePerDev": 0
+    },
+    "pillars": {
+      "Line Budgets & Monolith Decomposition": {
+        "status": "PASSED",
+        "violations": 1,
+        "critical": 0
+      },
+      "Control Flow & Boolean Logic": {
+        "status": "FAILED",
+        "violations": 28,
+        "critical": 22
+      },
+      "Reactivity & Composable Contracts": {
+        "status": "WARN",
+        "violations": 10,
+        "critical": 0
+      },
+      "Type Architecture & Data Integrity": {
+        "status": "WARN",
+        "violations": 3,
+        "critical": 0
+      },
+      "Design System & Styling Hygiene": {
+        "status": "WARN",
+        "violations": 6,
+        "critical": 0
+      },
+      "Timers & Macro-Task Discipline": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Global Hygiene & Typography": {
+        "status": "PASSED",
+        "violations": 1,
+        "critical": 0
+      },
+      "Accessibility & Semantic Integrity": {
+        "status": "PASSED",
+        "violations": 1,
+        "critical": 0
+      },
+      "Security & Content Safety": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Testing Discipline": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Naming Conventions": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      }
+    }
+  },
+  {
+    "id": "audit-1790342488827",
+    "timestamp": "2026-09-25T13:21:28.827Z",
+    "health": {
+      "score": 0,
+      "grade": "F",
+      "label": "Severe Context Rot"
+    },
+    "aiSlop": {
+      "score": 88,
+      "grade": "B",
+      "label": "Low AI Residue",
+      "violationsCount": 3
+    },
+    "metrics": {
+      "scannedFiles": 16,
+      "totalLoc": 4423,
+      "avgLoc": 276,
+      "moleculeCount": 0,
+      "moleculeCompliantCount": 0,
+      "moleculeCompliantPct": 100,
+      "hookCount": 72
+    },
+    "violations": {
+      "total": 53,
+      "critical": 22,
+      "high": 17,
+      "medium": 13,
+      "low": 1
+    },
+    "monoliths": {
+      "total": 0,
+      "extreme": 0,
+      "severe": 0,
+      "warning": 0
+    },
+    "tokens": {
+      "estimatedTokens": 47163,
+      "estimatedExcessTokens": 0,
+      "potentialSavingsPct": 0,
+      "riskLevel": "LOW",
+      "pricingModel": "Frontier Blended ($3.00/1M)",
+      "costPerMillion": 3,
+      "excessCostPerPass": 0,
+      "weeklyWastePerDev": 0,
+      "monthlyWastePerDev": 0
+    },
+    "pillars": {
+      "Line Budgets & Monolith Decomposition": {
+        "status": "PASSED",
+        "violations": 1,
+        "critical": 0
+      },
+      "Control Flow & Boolean Logic": {
+        "status": "FAILED",
+        "violations": 28,
+        "critical": 22
+      },
+      "Reactivity & Composable Contracts": {
+        "status": "WARN",
+        "violations": 10,
+        "critical": 0
+      },
+      "Type Architecture & Data Integrity": {
+        "status": "WARN",
+        "violations": 3,
+        "critical": 0
+      },
+      "Design System & Styling Hygiene": {
+        "status": "WARN",
+        "violations": 6,
+        "critical": 0
+      },
+      "Timers & Macro-Task Discipline": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Global Hygiene & Typography": {
+        "status": "PASSED",
+        "violations": 1,
+        "critical": 0
+      },
+      "Accessibility & Semantic Integrity": {
+        "status": "PASSED",
+        "violations": 1,
+        "critical": 0
+      },
+      "Security & Content Safety": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Testing Discipline": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      },
+      "Naming Conventions": {
+        "status": "PASSED",
+        "violations": 0,
+        "critical": 0
+      }
+    }
+  }
+]
